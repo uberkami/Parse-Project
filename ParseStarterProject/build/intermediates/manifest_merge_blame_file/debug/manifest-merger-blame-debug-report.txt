@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (c) 2015-present, Parse, LLC.
+4  ~ All rights reserved.
+5  ~
+6  ~ This source code is licensed under the BSD-style license found in the
+7  ~ LICENSE file in the root directory of this source tree. An additional grant
+8  ~ of patent rights can be found in the PATENTS file in the same directory.
+9-->
+10<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+11    package="com.parse.starter"
+12    android:versionCode="1"
+13    android:versionName="1.0" >
+14
+15    <uses-sdk
+16        android:minSdkVersion="14"
+16-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
+17        android:targetSdkVersion="28" />
+17-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:5-67
+19-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:5-79
+20-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:22-76
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:5-80
+21-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:22-77
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:5-79
+22-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:24:5-68
+23-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+25
+26    <application
+26-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:5-36:19
+27        android:name="com.parse.starter.StarterApplication"
+27-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:9-43
+28        android:allowBackup="true"
+28-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\6b399c2363bb098ebde1725d903cbda0\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:21:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:9-41
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:9-40
+35        <activity
+35-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:25:9-33:20
+36            android:name="com.parse.starter.MainActivity"
+36-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:13-41
+37            android:label="@string/app_name" >
+37-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:27:13-45
+38            <intent-filter>
+38-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:17-69
+39-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:17-77
+41-->C:\Users\Maleck\AndroidStudioProjects\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <!--
+46             FirebaseMessagingService performs security checks at runtime,
+47             no need for explicit permissions despite exported="true"
+48        -->
+49        <service
+49-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+50            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+50-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+51            android:exported="true" >
+51-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+52            <intent-filter android:priority="-500" >
+52-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:31:13-33:29
+52-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:31:28-51
+53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+53-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:32:17-78
+53-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\a12c3d8ccb918ace5208c00c191cce34\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:32:25-75
+54            </intent-filter>
+55        </service>
+56        <service
+56-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
+58            android:exported="false" >
+58-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+59            <meta-data
+59-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+60                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+60-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+62        </service>
+63
+64        <receiver
+64-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+65            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+65-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+66            android:exported="true"
+66-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+67            android:permission="com.google.android.c2dm.permission.SEND" >
+67-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+68            <intent-filter>
+68-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+69                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+69-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+69-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+70            </intent-filter>
+71        </receiver>
+72        <!--
+73             FirebaseInstanceIdService performs security checks at runtime,
+74             no need for explicit permissions despite exported="true"
+75        -->
+76        <service
+76-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+77            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+77-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+78            android:exported="true" >
+78-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+79            <intent-filter android:priority="-500" >
+79-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
+79-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
+80                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+80-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
+80-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0d21288abce78be5504cb57464a16eba\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
+81            </intent-filter>
+82        </service>
+83
+84        <provider
+84-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\09ada28512aa709ae417928f633f125c\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+85            android:name="com.google.firebase.provider.FirebaseInitProvider"
+85-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\09ada28512aa709ae417928f633f125c\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+86            android:authorities="com.parse.starter.firebaseinitprovider"
+86-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\09ada28512aa709ae417928f633f125c\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+87            android:exported="false"
+87-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\09ada28512aa709ae417928f633f125c\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+88            android:initOrder="100" />
+88-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\09ada28512aa709ae417928f633f125c\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0dd2c7ec814bd42a2a5125cba7691eac\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0dd2c7ec814bd42a2a5125cba7691eac\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0dd2c7ec814bd42a2a5125cba7691eac\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\0dd2c7ec814bd42a2a5125cba7691eac\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\d6f6f4c91a5f56ea690750a4611ddb76\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\d6f6f4c91a5f56ea690750a4611ddb76\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Maleck\.gradle\caches\transforms-2\files-2.1\d6f6f4c91a5f56ea690750a4611ddb76\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

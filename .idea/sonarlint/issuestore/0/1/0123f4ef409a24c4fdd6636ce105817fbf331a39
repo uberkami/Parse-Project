@@ -1,0 +1,10 @@
+
+[squid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³נ‹G8ק¢עûׂ-
+\squid:UselessImportCheck"3Remove this unused import 'com.parse.SaveCallback'.(•צנÞ8ק¢עûׂ-
+]squid:UselessImportCheck"4Remove this unused import 'com.parse.LogInCallback'.(×לû¡8ק¢עûׂ-
+Ysquid:UselessImportCheck"0Remove this unused import 'com.parse.ParseUser'.(ץ‹µ´8ק¢עûׂ-
+\squid:UselessImportCheck".Remove this unused import 'android.view.View'.(״½­ה‏ÿÿÿÿ8ק¢עûׂ-
+hsquid:UselessImportCheck":Remove this unused import 'com.parse.ParseAnonymousUtils'.(Ê‹צח‏ÿÿÿÿ8ק¢עûׂ-
+^squid:UselessImportCheck"5Remove this unused import 'com.parse.ParseException'.(ןû״‘8ק¢עûׂ-
+`squid:UselessImportCheck"2Remove this unused import 'android.widget.Switch'.(¬Ü´¹üÿÿÿÿ8ק¢עûׂ-
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(װ¦״²רÿÿÿÿ8ק¢עûׂ-
